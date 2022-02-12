@@ -1,0 +1,14 @@
+databases:
+  mysql:
+    host: mysql
+    username: admin
+    password: abcd1234
+    database: ethereum
+    port: 3306
+  redis:
+    host: redis
+    port: 6379
+    password:
+
+rpc:
+  host: http://localhost:8545
